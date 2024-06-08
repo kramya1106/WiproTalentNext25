@@ -1,0 +1,17 @@
+import java.util.*;
+
+public class SREven {
+    public static void main(String[] args) {
+        int lo, up, i;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the range:");
+        lo = sc.nextInt();
+        up = sc.nextInt();
+        for (i = lo; i <= up; i++) {
+            if (i % 2 == 0) {
+                System.out.println(i);
+            }
+        }
+    }
+
+}
