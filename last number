@@ -1,0 +1,23 @@
+import java.util.*;
+class Last
+{
+public static void main(String args[])
+{
+int num1,num2,x,y;
+Scanner sc=new Scanner(System.in);
+System.out.println("enter a num1:");
+num1=sc.nextInt();
+System.out.println("enter a num2:");
+num2=sc.nextInt();
+x=num1 % 10;
+y=num2 % 10;
+if(x==y)
+{
+System.out.println("true");
+}
+else
+{
+System.out.println("false");
+}
+}
+}
